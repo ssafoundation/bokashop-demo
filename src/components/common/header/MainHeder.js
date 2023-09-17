@@ -33,7 +33,7 @@ const MainHeder = () => {
             <div className="navbar-menu-list">
               <ul>
                 <li>
-                  <Link href="/">Category</Link>
+                  <Link href="/about">Category</Link>
                 </li>
                 <li>
                   <Link href="/">Deals</Link>
