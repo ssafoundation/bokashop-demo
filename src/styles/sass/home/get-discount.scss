@@ -1,0 +1,23 @@
+//================
+.get-discount-full-area {
+  margin: 80px 0;
+  .get-discount-inner-container {
+    .get-discount-left-content {
+      h2 {
+        color: #1f160b;
+
+        font-size: 46px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+    }
+    .get-discount-right-image {
+      text-align: center;
+      img {
+        width: auto;
+        height: 500px;
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+//=================
+.footer-main-area {
+  min-height: 450px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 80px;
+  background: #111723;
+  .footer-inner-container {
+    .footer-left-content {
+      p {
+        color: $text-white;
+      }
+      .footer-title {
+        img,
+        h4 {
+          font-size: 28px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          margin-bottom: 30px;
+          color: $text-white;
+        }
+        p {
+          color: $text-white;
+        }
+      }
+    }
+
+    .footer-right-content {
+      .footer-title {
+        img,
+        h4 {
+          font-size: 28px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          margin-bottom: 30px;
+          color: $text-white;
+        }
+        p {
+          color: $text-white;
+        }
+      }
+      .footer-right-single-item {
+        span {
+          color: $text-white;
+        }
+        p {
+          color: $text-white;
+        }
+        ul {
+          list-style: none;
+          padding-left: 0;
+          li {
+            a {
+              color: $text-white;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

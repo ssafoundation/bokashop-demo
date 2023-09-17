@@ -1,0 +1,7 @@
+@mixin button($padding, $background, $border, $font-size) {
+  padding: $padding;
+  border: 2px solid $border;
+  background: $background;
+  border-radius: 50px;
+  font-size: $font-size;
+}

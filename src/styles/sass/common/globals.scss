@@ -1,0 +1,37 @@
+.primary-button {
+  @include button(2px 10px, #0170ff, #0170ff, 16px);
+  color: #fff;
+  font-weight: 500;
+}
+.secondary-button {
+  @include button(2px 10px, #fff, #0170ff, 16px);
+  color: #0170ff;
+  font-weight: 500;
+}
+body {
+  font-family: "Satoshi", sans-serif;
+  .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    h2 {
+      color: #1f160b;
+      font-family: Satoshi;
+      font-size: 46px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+  .primary-btn {
+    border-radius: 30px;
+    background: #ea1c24;
+    display: inline-flex;
+    padding: 10px 22px 10px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+  }
+}

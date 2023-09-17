@@ -1,0 +1,9 @@
+@import "./mixins";
+@import "variable";
+@import "../node_modules/bootstrap/scss/bootstrap";
+// @import "../node_modules/antd/dist/antd.css";
+@import "common/globals.scss";
+@import "common/header.scss";
+@import "common/footer.scss";
+@import "home/home.scss";
+@import "search/search.scss";

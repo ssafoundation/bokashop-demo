@@ -1,0 +1,34 @@
+//========
+.categories-product {
+  margin: 80px 0;
+  .categories-inner-container {
+    .section-title {
+    }
+    .categories-items-wrap {
+      display: grid;
+      gap: 16px;
+      grid-template-columns: repeat(5, 1fr);
+      .single-category-item {
+        min-height: 300px;
+        position: relative;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+        span {
+          position: absolute;
+          left: 0;
+          top: 20px;
+          padding: 8px 10px;
+          border-radius: 0px 30px 30px 0px;
+          background: rgba(17, 17, 17, 0.2);
+          backdrop-filter: blur(30px);
+          color: #fff;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+        }
+      }
+    }
+  }
+}
