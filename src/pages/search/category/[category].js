@@ -1,11 +1,20 @@
+import { categoryData } from "@/assets/data/categoryData";
+import LoveIcon from "@/assets/icon/LoveIcon";
+import StarIcon from "@/assets/icon/StarIcon";
+import productImage from "@/assets/image/product/product-1.png";
 import Layout from "@/components/Layouts/Layout";
 import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
+import { useRouter } from "next/router";
+import { useState } from "react";
+import { Col, Container, Row } from "react-bootstrap";
 const CategorySearch = () => {
-  // const { asPath } = useRouter();
-  // console.log(asPath);
+  const { asPath } = useRouter();
+  console.log(asPath);
 
-  // const [activeCategory, setActiveCategory] = useState(categoryData[0].name);
-  // console.log(activeCategory);
+  const [activeCategory, setActiveCategory] = useState(categoryData[0].name);
+  console.log(activeCategory);
   return (
     <>
       <Head>
@@ -15,8 +24,7 @@ const CategorySearch = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1>Test</h1>
-      {/* <div className="category-search-full-area">
+      <div className="category-search-full-area">
         <Container>
           <div className="category-search-inner-container">
             <div className="search-category-data-show">
@@ -111,7 +119,7 @@ const CategorySearch = () => {
             </Row>
           </div>
         </Container>
-      </div> */}
+      </div>
     </>
   );
 };
