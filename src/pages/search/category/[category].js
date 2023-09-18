@@ -126,6 +126,6 @@ const CategorySearch = () => {
 
 export default CategorySearch;
 
-CategorySearch.getLayout = function getLayout(page) {
-  return <Layout>{page}</Layout>;
-};
+// CategorySearch.getLayout = function getLayout(page) {
+//   return <Layout>{page}</Layout>;
+// };
