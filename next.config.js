@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const path = require("path");
 const nextConfig = {
-  output: "export",
+  output: "standalone",
   distDir: "build",
   reactStrictMode: true,
   images: {
