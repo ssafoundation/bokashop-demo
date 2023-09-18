@@ -1,14 +1,11 @@
-import { categoryData } from "@/assets/data/categoryData";
 import Layout from "@/components/Layouts/Layout";
 import Head from "next/head";
-import { useRouter } from "next/router";
-import { useState } from "react";
 const CategorySearch = () => {
-  const { asPath } = useRouter();
-  console.log(asPath);
+  // const { asPath } = useRouter();
+  // console.log(asPath);
 
-  const [activeCategory, setActiveCategory] = useState(categoryData[0].name);
-  console.log(activeCategory);
+  // const [activeCategory, setActiveCategory] = useState(categoryData[0].name);
+  // console.log(activeCategory);
   return (
     <>
       <Head>
